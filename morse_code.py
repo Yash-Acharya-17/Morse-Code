@@ -1,4 +1,4 @@
-##importing mmodules
+#importing modules
 from tkinter import *
 from tkinter import messagebox as tm
 import base64
@@ -122,7 +122,7 @@ Entry(root, font = 'arial 10', textvariable = mode , bg= 'ghost white').place(x=
 Label(root, font = 'arial 12 bold', text ='RESULT').place(x=60, y = 120)
 Entry(root, font = 'arial 10 bold', textvariable = result, bg ='ghost white').place(x=290, y = 120)
 
-######result button
+#result button
 Button(root, font = 'arial 10 bold', text = 'RESULT'  ,padx =2,bg ='yellow' ,command = Mode).place(x=300, y = 190)
 
 
